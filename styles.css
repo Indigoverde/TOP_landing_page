@@ -2,6 +2,27 @@ body {
     font-family: roboto, sans-serif;
 }
 
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px 150px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0px 5px;
+}
+
 .top, .footer {
     background: #1F2937;
 }
@@ -17,7 +38,7 @@ body {
     font-weight: 900;
 }
 
-.hero_sec, .links, .header_img {
+.hero_sec, .links, .header_img, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
