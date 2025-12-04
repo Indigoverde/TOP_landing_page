@@ -23,6 +23,10 @@ li {
     padding: 0px 5px;
 }
 
+.top {
+    padding-bottom : 110px;
+}
+
 .top, .footer {
     background: #1F2937;
 }
@@ -30,6 +34,17 @@ li {
 .logo {
    font-size: 24px;
    color: #F9FAF8; 
+}
+
+.hero_image {
+    display: flex;
+    justify-content: center; /* pas sûre */
+    margin: 95px 150px 0px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero_main {
